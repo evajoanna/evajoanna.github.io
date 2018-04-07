@@ -42,7 +42,7 @@
 							anime.remove(this.DOM.cover);
 							anime({
 								targets: this.DOM.cover,
-								duration: 700,
+								duration: 600,
 								easing: 'easeOutQuint',
 								scaleX: [1,0]
 							});
@@ -52,7 +52,7 @@
 							anime.remove(this.DOM.inner);
 							anime({
 								targets: this.DOM.inner,
-								duration: 1200,
+								duration: 1100,
 								delay: 150,
 								easing: 'easeOutQuint',
 								opacity: {
