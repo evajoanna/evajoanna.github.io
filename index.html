@@ -10,8 +10,9 @@
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo2.css" />
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
 
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
@@ -19,7 +20,7 @@
 		<main>
 			<div class="message">To see the menu, please view on a larger screen.</div>
 			<div class="content content--fixed">
-				<button class="menu-trigger">+ Portfolio</button>
+				<button class="menu-trigger"><i class="fas fa-bars"></i> Portfolio</button>
 			</div>
 			<div id="content-1" class="content content--switch content--switch-current">
 				<h2 class="content__title">Eva Joanna</h2>
@@ -27,40 +28,43 @@
 				<div class="content__location">Barcelona</div>
 			</div>
                         <div id="content-2" class="content content--switch">
-                                <h2 class="content__title">Proyecto 1</h2>
-                                <div class="content__subtitle">Lift your spirits</div>
+                           <!-- <h2 class="content__title">Proyecto 1</h2> -->
+                           <!-- <div class="content__subtitle">Lift your spirits</div> -->
                         </div>
 			<div id="content-2" class="content content--switch">
-				<h2 class="content__title">Proyecto 1</h2>
-				<div class="content__subtitle">Lift your spirits</div>
+			   <!--	<h2 class="content__title">Proyecto 1</h2> -->
+			   <!--	<div class="content__subtitle">Lift your spirits</div> -->
 			</div>
 			<div id="content-3" class="content content--switch">
-				<h2 class="content__title">Proyecto 2</h2>
-				<div class="content__subtitle">Find yourself</div>
+			   <!--	<h2 class="content__title">Proyecto 2</h2> -->
+			   <!--	<div class="content__subtitle">Find yourself</div> -->
 			</div>
 			<div id="content-4" class="content content--switch">
-				<h2 class="content__title">Proyecto 3</h2>
-				<div class="content__subtitle">Uncover beauty</div>
+			   <!--	<h2 class="content__title">Proyecto 3</h2> -->
+			   <!--	<div class="content__subtitle">Uncover beauty</div> -->
 			</div>
 			<div id="content-5" class="content content--switch">
-				<h2 class="content__title">Proyecto 4</h2>
-				<div class="content__subtitle">Feel nature</div>
+			   <!--	<h2 class="content__title">Proyecto 4</h2> -->
+			   <!--	<div class="content__subtitle">Feel nature</div> -->
 			</div>
 			<div id="content-6" class="content content--switch">
-				<h2 class="content__title">Proyecto 5</h2>
-				<div class="content__subtitle">Explore your limits</div>
+			   <!--	<h2 class="content__title">Proyecto 5</h2> -->
+			   <!--	<div class="content__subtitle">Explore your limits</div> -->
 			</div>
 			<div id="content-7" class="content content--switch">
-				<h2 class="content__title">Proyecto 6</h2>
-				<div class="content__subtitle">Explore your limits</div>
+			   <!--	<h2 class="content__title">Proyecto 6</h2> -->
+			   <!--	<div class="content__subtitle">Explore your limits</div> -->
 			</div>
                         <div id="content-8" class="content content--switch">
-                                <h2 class="content__title">Proyecto 7</h2>
-                                <div class="content__subtitle">Explore your limits</div>
+                           <!-- <h2 class="content__title">Proyecto 7</h2> -->
+                           <!-- <div class="content__subtitle">Explore your limits</div> -->
+                        </div>
+                        <div id="contact" class="content content--switch">
+				<img src="img/hello.png">
                         </div>
 			<nav class="grim">
 				<div class="grim__item">
-					<div class="grim__item-bg grim__item-bg--1"></div>
+					<div class="grim__item-bg grim__item-bg--3"></div>
 					<a href="#content-1" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
 							<button class="menu-trigger menu-trigger--contact material-icons">home</button>
@@ -69,19 +73,21 @@
 	
 				</div>
 				<div class="grim__item">
-					<div class="grim__item-bg grim__item-bg--2"></div>
+					<div class="grim__item-bg grim__item-bg--3"></div>
+					<a href="#contact" class="grim__link grim__item-content">
 						<div class="grim__item-content">
 							<div class="grim__item-inner">
-								<button class="menu-trigger menu-trigger--contact material-icons">mail_outline</button>
+							<button class="menu-trigger menu-trigger--contact fas fa-envelope"></button>
 							</div>
 						</div>
+					</a>
 
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--3"></div>
 					<div class="grim__item-content">
 						<div class="grim__item-inner">
-							<button class="menu-trigger menu-trigger--contact material-icons">shopping_cart</button>
+							<a href="http://www.pinterest.es/evajoannadesign/" class="menu-trigger menu-trigger--contact fab fa-pinterest"></a>
 						</div>
 					</div>
 				</div>
@@ -89,93 +95,91 @@
                                         <div class="grim__item-bg grim__item-bg--3"></div>
                                         <div class="grim__item-content">
                                                 <div class="grim__item-inner">
-                                                        <button class="menu-trigger menu-trigger--contact material-icons">build</button>
+							<a href="https://www.linkedin.com/in/eva-joanna-gomez-0184a6143/" class="menu-trigger menu-trigger--contact fab fa-linkedin-in"></a>
                                                 </div>
                                         </div>
                                 </div>
                                 <div class="grim__item">
                                         <div class="grim__item-bg grim__item-bg--1"></div>
-					<div class="grim__item-img grim__item-img--6" style="background-image: url(img/6.jpg);"></div>
-					<a href="#content-1" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--6" style="background-image: url(img/1.jpg);"></div>
+					<a href="#content-2" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto X</h3>
-							<span class="grim__item-desc">Lift your spirits</span>
+							<h3 class="grim__item-title"></h3>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
 	
                                 </div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--4"></div>
-					<div class="grim__item-img grim__item-img--6" style="background-image: url(img/6.jpg);"></div>
-					<a href="#content-1" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--6" style="background-image: url(img/2.jpg);"></div>
+					<a href="#content-3" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto 6</h3>
-							<span class="grim__item-desc">Lift your spirits</span>
+							<h3 class="grim__item-title"></h3>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
 	
 				</div>
 				<div class="grim__item">
-					<div class="grim__item-bg grim__item-bg--5"></div>
-					<div class="grim__item-img grim__item-img--0" style="background-image: url(img/0.jpg);"></div>
-					<a href="#content-1" class="grim__link grim__item-content">
+					<div class="grim__item-bg grim__item-bg--6"></div>
+					<div class="grim__item-img grim__item-img--1" style="background-image: url(img/3.jpg);"></div>
+					<a href="#content-4" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto 0</h3>
-							<span class="grim__item-desc">Lift your spirits</span>
+							<h3 class="grim__item-title"></h3>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--6"></div>
-					<div class="grim__item-img grim__item-img--1" style="background-image: url(img/1.jpg);"></div>
-					<a href="#content-2" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--1" style="background-image: url(img/4.jpg);"></div>
+					<a href="#content-4" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto 1</h3>
-							<span class="grim__item-desc">Lift your spirits</span>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
 					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--7"></div>
-					<div class="grim__item-img grim__item-img--2" style="background-image: url(img/2.jpg);"></div>
-					<a href="#content-3" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--2" style="background-image: url(img/5.jpg);"></div>
+					<a href="#content-5" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto 2</h3>
-							<span class="grim__item-desc">Find yourself</span>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
 					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--7"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--8"></div>
-					<div class="grim__item-img grim__item-img--3" style="background-image: url(img/3.jpg);"></div>
-					<a href="#content-4" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--3" style="background-image: url(img/6.jpg);"></div>
+					<a href="#content-6" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto 3</h3>
-							<span class="grim__item-desc">Uncover beauty</span>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
 					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--8"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--9"></div>
-					<div class="grim__item-img grim__item-img--4" style="background-image: url(img/4.jpg);"></div>
-					<a href="#content-5" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--4" style="background-image: url(img/7.jpg);"></div>
+					<a href="#content-7" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto 4</h3>
-							<span class="grim__item-desc">Feel nature</span>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
 					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--9"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--10"></div>
-					<div class="grim__item-img grim__item-img--5" style="background-image: url(img/5.jpg);"></div>
-					<a href="#content-6" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--5" style="background-image: url(img/8.jpg);"></div>
+					<a href="#content-8" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">Proyecto 5</h3>
-							<span class="grim__item-desc">Explore your limits</span>
+							<span class="grim__item-desc"></span>
 						</div>
 					</a>
 					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--10"></div>

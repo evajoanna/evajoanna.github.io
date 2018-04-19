@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,800');
 
 .demo-2 {
 	font-family: 'Montserrat', sans-serif;
 	--color-text: #FFF;
-	--color-bg: #39323D;
+/*	--color-bg: #39323D; */
+	--color-bg: #000000;
 	--color-link: #8958b1;
 	--color-link-hover: #fff;
 	--color-info: #000;
@@ -63,11 +64,11 @@
 }
 
 #content-3 {
-	background-image: url(../img/pj2.jpg);
+	background-image: url(../img/pj7.jpg);
 }
 
 #content-4 {
-	background-image: url(../img/pj3.jpg);
+	background-image: url(../img/pj8.jpg);
 }
 
 #content-5 {
@@ -75,10 +76,13 @@
 }
 
 #content-6 {
-	background-image: url(../img/pj5.jpg);
+	background-image: url(../img/pj6.jpg);
 }
 #content-7 {
-	background-image: url(../img/pj6.jpg);
+	background-image: url(../img/pj3.jpg);
+}
+#content-8 {
+	background-image: url(../img/pj2.jpg);
 }
 
 @media screen and (min-width: 55em) {

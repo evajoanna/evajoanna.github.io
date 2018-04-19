@@ -99,6 +99,10 @@ button:focus {
 	z-index: 1000;
 	display: block;
 	padding: 0.85em;
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vw;
+        font-weight: 800;
 }
 
 .codrops-header {
