@@ -60,7 +60,7 @@
 }
 
 #content-2 {
-	background-image: url(../img/pj1.jpg);
+	background-image: url(../img/pj2.jpg);
 }
 
 #content-3 {
@@ -82,7 +82,7 @@
 	background-image: url(../img/pj3.jpg);
 }
 #content-8 {
-	background-image: url(../img/pj2.jpg);
+	background-image: url(../img/pj1.jpg);
 }
 
 @media screen and (min-width: 55em) {
@@ -152,7 +152,7 @@
         .grim__item:nth-child(4) {
                 grid-area: 31 / 4 / 33 / 4;
         }
-	/* Proyecto X */
+	/* blk */
 	.grim__item:nth-child(5) {
 		grid-area: 25 / 1 / 31 / 5;
 	}
@@ -172,15 +172,15 @@
 	.grim__item:nth-child(9) {
 		grid-area: 11 / 1 / 19 / 17;
 	}
-	/* Proyecto 1 */
+	/* heineken */
 	.grim__item:nth-child(10) {
 		grid-area: 11 / 17 / 33 / 33;
 	}
-	/* Proyecto 4 */
+	/* santas */
         .grim__item:nth-child(11) {
                 grid-area: 1 / 1 / 11 / 17;
         }
-        /* Proyecto 5 */
+        /* sparrow */
         .grim__item:nth-child(12) {
                 grid-area: 1 / 17 / 11 / 33;
         }
@@ -220,12 +220,14 @@
 		background-color: currentColor;
 	}
 
-	.grim__item-img--0 { color: #fcfdff; }
-	.grim__item-img--1 { color: #fcfdff; }
+	.grim__item-img--0 { color: #00541a; }
+	.grim__item-img--1 { color: #00541a; }
 	.grim__item-img--2 { color: #a9bdd6; }
 	.grim__item-img--3 { color: #9ed4d4; }
 	.grim__item-img--4 { color: #d0bebe; }
 	.grim__item-img--5 { color: #df9e98; }
+	.grim__item-img--6 { color: #df9e98; }
+	.grim__item-img--7 { color: #00541a; }
 
 	.grim__item-content {
 		position: relative;
@@ -236,7 +238,7 @@
 	.grim__item-content:hover,
 	.grim__item-content:focus {
 		opacity: 0.8;
-		color: inherit;
+		color: #000;
 		transition: opacity 0.3s;
 	}
 
@@ -272,7 +274,7 @@
 	}
 
 	.grim__item-desc::after {
-		content: '\2014';
+	/*	content: '\2014';*/
 		position: relative;
 		display: block;
 		font-size: 1.75rem;
